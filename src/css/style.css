@@ -50,7 +50,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-   background: #003060;
+   background: #0b2b03;
 }
 
 section {
@@ -61,18 +61,32 @@ section {
    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-section#home h1 {
-   color: #0b2b03;
-   margin-bottom: 20px;
-}
-
 section#home img {
    width: 100%;
    margin-bottom: 20px;
 }
 
-h1, h2 {
+section#local img {
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+h1 {
+   color: #124705;
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+
+ h2 {
    margin-bottom: 10px;
+   color: #0b2b03;
+   font-size: 25px;
+}
+
+h3 {
+   margin-bottom: 10px;
+   color: #0b2b03;
+   font-size: 22px;
 }
 
 p {
@@ -114,7 +128,7 @@ form {
 
 form label {
    margin-bottom: 5px;
-   color: #004080;
+   color: #006020;
 }
 
 form input, form textarea {
